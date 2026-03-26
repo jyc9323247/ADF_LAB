@@ -7,7 +7,8 @@
 -- ============================================================================
 
 -- 1) 스키마 생성 (스키마가 없는 경우)
-CREATE SCHEMA ETL_SCHEMA AUTHORIZATION DB2ADMIN;
+--CREATE SCHEMA ETL_SCHEMA AUTHORIZATION DB2ADMIN;
+CREATE SCHEMA ETL_SCHEMA ;
 
 
 -- 2) TB_CUSTOMER 테이블 DDL (고객 마스터)
