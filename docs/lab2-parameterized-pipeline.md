@@ -147,7 +147,7 @@ datalake/SAMPLEDB/ETL_SCHEMA/TB_CUSTOMER_20260326.parquet
 | `p_db_name` | `SAMPLEDB` |
 | `p_schema_name` | `ETL_SCHEMA` |
 | `p_table_name` | `TB_CUSTOMER` |
-| `p_load_date` | `@formatDateTime(utcNow(), 'yyyyMMdd')` |
+| `p_load_date` | `@formatDateTime(utcNow())` |
 
 ## 2.7 (선택) 여러 테이블 수집 — ForEach 확장
 
@@ -197,7 +197,7 @@ datalake/SAMPLEDB/ETL_SCHEMA/TB_CUSTOMER_20260326.parquet
 | `p_db_name` | `@item().db_name` |
 | `p_schema_name` | `@item().schema_name` |
 | `p_table_name` | `@item().table_name` |
-| `p_load_date` | `@formatDateTime(utcNow(), 'yyyyMMdd')` |
+| `p_load_date` | `@formatDateTime(utcNow())` |
 
 ## 2.8 실행 및 검증
 

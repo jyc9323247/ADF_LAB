@@ -230,14 +230,14 @@ Copy Activity → Source 탭 → Use query: **Query** → Add dynamic content:
             pipeline().parameters.p_incr_column,
             ' >= ''',
             formatDateTime(
-                addDays(parseDateTime(pipeline().parameters.p_load_date, 'yyyyMMdd'), -1),
+                addDays(formatDateTime(pipeline().parameters.p_load_date, 'yyyy-MM-dd'), -1),
                 'yyyy-MM-dd'
             ),
             ''' AND ',
             pipeline().parameters.p_incr_column,
             ' < ''',
             formatDateTime(
-                parseDateTime(pipeline().parameters.p_load_date, 'yyyyMMdd'),
+                pipeline().parameters.p_load_date,
                 'yyyy-MM-dd'
             ),
             ''' WITH UR'
