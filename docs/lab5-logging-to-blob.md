@@ -411,6 +411,8 @@ https://{storage_account}.blob.core.windows.net/{container}/{virtual_directory}/
 | 일반 로그 JSON 크기 | 500 ~ 2,000 bytes |
 
 ---
+<img width="760" height="679" alt="image" src="https://github.com/user-attachments/assets/8abe4de5-ef51-4b4e-846b-7a27071f5b56" />
+
 
 ## Part 5. 실행 및 검증
 
