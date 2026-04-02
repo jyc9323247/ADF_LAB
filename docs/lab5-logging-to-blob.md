@@ -55,13 +55,16 @@
 │    p_data_read, p_data_written, p_duration, p_error_message             │
 └──────────────────────────────────────────────────────────────────────────┘
 
-<img width="751" height="661" alt="image" src="https://github.com/user-attachments/assets/1b05fa08-95a5-40c1-afcf-b415133082bd" />
-
 
 
 로그 저장 경로:
   pipeline-logs/YYYY/MM/DD/{pipeline}_{runid}_{table}_{status}.json
 ```
+
+
+<img width="751" height="661" alt="image" src="https://github.com/user-attachments/assets/1b05fa08-95a5-40c1-afcf-b415133082bd" />
+
+
 
 ---
 
