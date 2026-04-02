@@ -231,3 +231,7 @@ WITH UR
 ---
 
 **참고:** [ADF 표현식 Quick Reference](appendix-d-expression-reference.md)
+
+---
+
+**다음 단계:** [Lab 5 — Copy/Pipeline 실행 로깅 (Azure Blob Storage)](lab5-logging-to-blob.md)
