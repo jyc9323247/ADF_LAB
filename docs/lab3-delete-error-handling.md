@@ -40,7 +40,7 @@ Activity 이름: Delete_Existing_Parquet
 | 설정 | 값 |
 |------|-----|
 | Name | `Delete_Existing_Parquet` |
-| Timeout | `0.00:05:00` |
+| Timeout | `0.00:10:00` |
 
 ### Source 탭 (삭제 대상 경로)
 
