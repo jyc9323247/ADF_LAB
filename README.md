@@ -20,6 +20,7 @@ ADF 입문 ~ 중급 엔지니어를 위한 단계별 실습 문서입니다.
 | [Lab 5](docs/lab5-logging-to-blob.md) | Copy/Pipeline 실행 로깅 | Web Activity + Blob REST API, JSON 로그, 3가지 방법 비교 | ⭐⭐⭐ |
 | [Lab 6](docs/lab6-integrated-pipeline.md) | 통합 파이프라인 (완성형) | Config Lookup + ForEach + Copy + 차일드 로깅 통합 | ⭐⭐⭐ |
 | [Lab 7](docs/lab7-triggers.md) | ADF 트리거 (Schedule Trigger) | 5분/1시간/매주일요일/매월말 — 4가지 스케줄 패턴 | ⭐⭐ |
+| [Lab 8](docs/lab8-key-vault.md) | Key Vault 연동 (Secrets Management) | Azure Key Vault, Managed Identity, Linked Service Secret 참조 | ⭐⭐⭐ |
 
 ## 📁 부록
 
@@ -67,7 +68,7 @@ ADF 입문 ~ 중급 엔지니어를 위한 단계별 실습 문서입니다.
     → Lab 2 (파라메터) → Lab 2 확장 (Lookup/ForEach)
     → Lab 3 (삭제/에러) → Lab 4 (DB2 표현식)
     → Lab 5 (Blob 로깅) → Lab 6 (통합 파이프라인)
-    → Lab 7 (트리거)
+    → Lab 7 (트리거) → Lab 8 (Key Vault)
 ```
 
 ## 🛠️ 사전 요구사항
